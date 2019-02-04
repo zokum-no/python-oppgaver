@@ -3,8 +3,10 @@
 import math
 
 
-#Her er et par metoder, klarer du å finne feilene?
+# Her er et par metoder, klarer du å finne feilene?
 # Når du har funnet feilen(e), kan du rette opp i dem?
+
+# Det er kjekt om du reflekterer litt over hva som gikk galt og hvorfor det gikk galt!
 
 #menysystem
 
