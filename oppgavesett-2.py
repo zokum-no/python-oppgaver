@@ -3,14 +3,10 @@
 import math
 import random
 
-
-#Her er et par metoder, klarer du å finne feilene?
-# Når du har funnet feilen(e), kan du rette opp i dem?
-
-#menysystem
-
-def PrintRiktigTall (a, hemme1ig) :
-    print("Riktig tall var: '%d'!" % hemme1ig)
+#######################################################################################################
+# Menysystemet er samme som i forrige oppgave, ingenting nytt her, scroll ned til stor kommentarblokk #
+# for selve oppgaven!                                                                                 #
+#######################################################################################################
 
 def Meny (menyTekst, maksValg) :
 
@@ -23,6 +19,8 @@ def Meny (menyTekst, maksValg) :
         valg = int(input("Velg et tall fra 0 til %s: " % maksValg))
         if valg >= 0 and valg <= maksValg :
             return valg
+def PrintRiktigTall (a, hemme1ig) :
+    print("Riktig tall var: '%d'!" % hemme1ig)
     
 ###############################################################################
 # Oppgave 1: Gjett tallet på 5 forsøk eller mindre!
