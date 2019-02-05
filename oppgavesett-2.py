@@ -27,8 +27,8 @@ def PrintRiktigTall (a, hemme1ig) :
 #
 # Dette programmet er skrevet av Leif Egil Eidsvang Tønnesen. Han jobber hos
 # Haxxorsoft Industries og er en av senior-programmererne. Leif Egil er en
-# notorisk gambler og har spilt bort hus, gård, kone, bærbar pc, selvtilliten
-# og bor nå i en container utenfor arbeidsplassen.
+# notorisk gambler og har spilt bort hus, gård, kone, bærbar pc og selvtilliten.
+# Han bor nå i en container utenfor arbeidsplassen.
 #
 # Målet med dette programmet er å gamble litt med de andre ansatte. Om han
 # vinner nok veddemål med dette så vil han ha råd til lett bedre mat. Han er
