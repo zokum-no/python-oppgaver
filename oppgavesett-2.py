@@ -51,7 +51,7 @@ def PrintRiktigTall (a, hemme1ig) :
 # NB: Programmet foretar ikke noen sjekk at du skriver inn tall, se bort i fra
 # denslags tekniske småting.
 #
-# Send meg en epost med svarene, kimroarhauge@gmail.com, har telefonvarsling på
+# Send meg en epost med svarene, kimroarhauge hos gmail, har telefonvarsling på
 # den adressa.
 #
 # Oppgavene er som følger:
