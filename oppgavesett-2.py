@@ -19,8 +19,8 @@ def Meny (menyTekst, maksValg) :
         valg = int(input("Velg et tall fra 0 til %s: " % maksValg))
         if valg >= 0 and valg <= maksValg :
             return valg
-def PrintRiktigTall (a, hemme1ig) :
-    print("Riktig tall var: '%d'!" % hemme1ig)
+def PrintRiktigTall (a, hemmelig) :
+    print("Riktig tall var: '%d'!" % hemmelig)
     
 ###############################################################################
 # Oppgave 1: Gjett tallet på 5 forsøk eller mindre!
@@ -77,7 +77,7 @@ def GjettTall () :
 
     while (gjetting != hemmelig and maksForsok > forsok) : 
         # Endret til g fra gjetting fordi det ellers blir så lange uttrykk!
-        g = int(input("Gjett tallet"))
+        g = int(input("Gjett tallet: "))
 
         # Litt logikk for å si fra om du gjettet for høyt eller lavt
         gjettetHoyt = u - g
@@ -100,13 +100,16 @@ def GjettTall () :
         
         forsok += 1
 
+    # Tall til neste runde, i tilfelle det skal spilles flere runder
+    a = random.randint(l + 1, u - 1)
+    
     # Siden forsøkene ikke er brukt opp, så må svaret være rett!
     if (forsok < maksForsok):
         print("Gratulerer, du vant 300 kroner!")
     else :
         print("Det gikk ikke så bra, du skylder meg 100 kroner din lømmel!")
     # Sender med hemmelig for å vise det hemmelige tallet!
-    PrintRiktigTall(hemmelig, random.randint(l, u))
+    PrintRiktigTall(hemmelig, a)
 
 # Selve programmet, kaller bare menyssystemet
 
